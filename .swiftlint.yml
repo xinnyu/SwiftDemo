@@ -1,0 +1,24 @@
+included: # 检查的目录
+excluded: # 忽略检查的目录，优先级比included高
+  - Carthage
+  - Pods
+
+identifier_name:
+  min_length:
+    warning: 0
+    error: 0
+  excluded:
+    - _addNotificationBlock(_:)
+    - _nsError
+    - _nsErrorDomain
+    - id
+    - pk
+    - to
+
+disabled_rules:
+  - trailing_whitespace
+  - line_length
+
+file_length: 1000 #文件的行数
+
+line_length: 150 # 每一行的字符数

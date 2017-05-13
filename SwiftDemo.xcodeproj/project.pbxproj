@@ -8,12 +8,18 @@
 
 /* Begin PBXBuildFile section */
 		8C8D29AA1EC6F69000666461 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29A91EC6F69000666461 /* AppDelegate.swift */; };
-		8C8D29AC1EC6F69000666461 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29AB1EC6F69000666461 /* ViewController.swift */; };
 		8C8D29AF1EC6F69000666461 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D29AD1EC6F69000666461 /* Main.storyboard */; };
 		8C8D29B21EC6F69000666461 /* SwiftDemo.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29B01EC6F69000666461 /* SwiftDemo.xcdatamodeld */; };
 		8C8D29B41EC6F69000666461 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D29B31EC6F69000666461 /* Assets.xcassets */; };
 		8C8D29B71EC6F69000666461 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D29B51EC6F69000666461 /* LaunchScreen.storyboard */; };
 		8C8D29C21EC6F69000666461 /* SwiftDemoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29C11EC6F69000666461 /* SwiftDemoTests.swift */; };
+		8C8D29D01EC70CFD00666461 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = 8C8D29CF1EC70CFD00666461 /* .swiftlint.yml */; };
+		8C8D29D61EC7279600666461 /* Macro.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29D51EC7279600666461 /* Macro.swift */; };
+		8C8D29DA1EC7362B00666461 /* StringExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29D91EC7362B00666461 /* StringExtensions.swift */; };
+		8C8D29DC1EC736ED00666461 /* CharacterExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29DB1EC736ED00666461 /* CharacterExtensions.swift */; };
+		8C8D29E21EC7394200666461 /* ArrayExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29E11EC7394200666461 /* ArrayExtensions.swift */; };
+		8C8D29E41EC74CF800666461 /* BoolExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29E31EC74CF800666461 /* BoolExtensions.swift */; };
+		8C8D29E61EC74E9F00666461 /* DataExtensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8C8D29E51EC74E9F00666461 /* DataExtensions.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -29,7 +35,6 @@
 /* Begin PBXFileReference section */
 		8C8D29A61EC6F69000666461 /* SwiftDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwiftDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8D29A91EC6F69000666461 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		8C8D29AB1EC6F69000666461 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8C8D29AE1EC6F69000666461 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8C8D29B11EC6F69000666461 /* SwiftDemo.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = SwiftDemo.xcdatamodel; sourceTree = "<group>"; };
 		8C8D29B31EC6F69000666461 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -38,6 +43,13 @@
 		8C8D29BD1EC6F69000666461 /* SwiftDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwiftDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C8D29C11EC6F69000666461 /* SwiftDemoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftDemoTests.swift; sourceTree = "<group>"; };
 		8C8D29C31EC6F69000666461 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8C8D29CF1EC70CFD00666461 /* .swiftlint.yml */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .swiftlint.yml; sourceTree = "<group>"; };
+		8C8D29D51EC7279600666461 /* Macro.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Macro.swift; sourceTree = "<group>"; };
+		8C8D29D91EC7362B00666461 /* StringExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StringExtensions.swift; sourceTree = "<group>"; };
+		8C8D29DB1EC736ED00666461 /* CharacterExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CharacterExtensions.swift; sourceTree = "<group>"; };
+		8C8D29E11EC7394200666461 /* ArrayExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ArrayExtensions.swift; sourceTree = "<group>"; };
+		8C8D29E31EC74CF800666461 /* BoolExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BoolExtensions.swift; sourceTree = "<group>"; };
+		8C8D29E51EC74E9F00666461 /* DataExtensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = DataExtensions.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -61,6 +73,7 @@
 		8C8D299D1EC6F69000666461 = {
 			isa = PBXGroup;
 			children = (
+				8C8D29CF1EC70CFD00666461 /* .swiftlint.yml */,
 				8C8D29A81EC6F69000666461 /* SwiftDemo */,
 				8C8D29C01EC6F69000666461 /* SwiftDemoTests */,
 				8C8D29A71EC6F69000666461 /* Products */,
@@ -79,13 +92,14 @@
 		8C8D29A81EC6F69000666461 /* SwiftDemo */ = {
 			isa = PBXGroup;
 			children = (
+				8C8D29D41EC7272100666461 /* Marcos */,
+				8C8D29D31EC7270D00666461 /* Utils */,
+				8C8D29D21EC7264A00666461 /* Main */,
+				8C8D29CE1EC7051500666461 /* Vender */,
+				8C8D29CC1EC6F76E00666461 /* Supporting Files */,
+				8C8D29D11EC710D400666461 /* CoreData */,
 				8C8D29A91EC6F69000666461 /* AppDelegate.swift */,
-				8C8D29AB1EC6F69000666461 /* ViewController.swift */,
 				8C8D29AD1EC6F69000666461 /* Main.storyboard */,
-				8C8D29B31EC6F69000666461 /* Assets.xcassets */,
-				8C8D29B51EC6F69000666461 /* LaunchScreen.storyboard */,
-				8C8D29B81EC6F69000666461 /* Info.plist */,
-				8C8D29B01EC6F69000666461 /* SwiftDemo.xcdatamodeld */,
 			);
 			path = SwiftDemo;
 			sourceTree = "<group>";
@@ -99,6 +113,106 @@
 			path = SwiftDemoTests;
 			sourceTree = "<group>";
 		};
+		8C8D29CC1EC6F76E00666461 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D29B31EC6F69000666461 /* Assets.xcassets */,
+				8C8D29B51EC6F69000666461 /* LaunchScreen.storyboard */,
+				8C8D29B81EC6F69000666461 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		8C8D29CE1EC7051500666461 /* Vender */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Vender;
+			sourceTree = "<group>";
+		};
+		8C8D29D11EC710D400666461 /* CoreData */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D29B01EC6F69000666461 /* SwiftDemo.xcdatamodeld */,
+			);
+			name = CoreData;
+			sourceTree = "<group>";
+		};
+		8C8D29D21EC7264A00666461 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D29DD1EC737ED00666461 /* 业 */,
+				8C8D29DE1EC737F700666461 /* 务 */,
+				8C8D29DF1EC7380600666461 /* 逻 */,
+				8C8D29E01EC7380E00666461 /* 辑 */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		8C8D29D31EC7270D00666461 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D29D81EC7308A00666461 /* Tools */,
+				8C8D29D71EC7307F00666461 /* Extensions */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
+		8C8D29D41EC7272100666461 /* Marcos */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D29D51EC7279600666461 /* Macro.swift */,
+			);
+			name = Marcos;
+			sourceTree = "<group>";
+		};
+		8C8D29D71EC7307F00666461 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				8C8D29DB1EC736ED00666461 /* CharacterExtensions.swift */,
+				8C8D29E11EC7394200666461 /* ArrayExtensions.swift */,
+				8C8D29D91EC7362B00666461 /* StringExtensions.swift */,
+				8C8D29E31EC74CF800666461 /* BoolExtensions.swift */,
+				8C8D29E51EC74E9F00666461 /* DataExtensions.swift */,
+			);
+			name = Extensions;
+			sourceTree = "<group>";
+		};
+		8C8D29D81EC7308A00666461 /* Tools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Tools;
+			sourceTree = "<group>";
+		};
+		8C8D29DD1EC737ED00666461 /* 业 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "业";
+			sourceTree = "<group>";
+		};
+		8C8D29DE1EC737F700666461 /* 务 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "务";
+			sourceTree = "<group>";
+		};
+		8C8D29DF1EC7380600666461 /* 逻 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "逻";
+			sourceTree = "<group>";
+		};
+		8C8D29E01EC7380E00666461 /* 辑 */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = "辑";
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -106,6 +220,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 8C8D29C61EC6F69000666461 /* Build configuration list for PBXNativeTarget "SwiftDemo" */;
 			buildPhases = (
+				8C8D29CD1EC6FB4300666461 /* ShellScript */,
 				8C8D29A21EC6F69000666461 /* Sources */,
 				8C8D29A31EC6F69000666461 /* Frameworks */,
 				8C8D29A41EC6F69000666461 /* Resources */,
@@ -182,6 +297,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				8C8D29D01EC70CFD00666461 /* .swiftlint.yml in Resources */,
 				8C8D29B71EC6F69000666461 /* LaunchScreen.storyboard in Resources */,
 				8C8D29B41EC6F69000666461 /* Assets.xcassets in Resources */,
 				8C8D29AF1EC6F69000666461 /* Main.storyboard in Resources */,
@@ -197,13 +313,34 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8C8D29CD1EC6FB4300666461 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "if which swiftlint >/dev/null; then\nswiftlint\nelse\necho \"warning: SwiftLint not installed, download from https://github.com/realm/SwiftLint\"\nfi";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		8C8D29A21EC6F69000666461 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8C8D29AC1EC6F69000666461 /* ViewController.swift in Sources */,
+				8C8D29DA1EC7362B00666461 /* StringExtensions.swift in Sources */,
+				8C8D29E61EC74E9F00666461 /* DataExtensions.swift in Sources */,
+				8C8D29E21EC7394200666461 /* ArrayExtensions.swift in Sources */,
+				8C8D29DC1EC736ED00666461 /* CharacterExtensions.swift in Sources */,
 				8C8D29B21EC6F69000666461 /* SwiftDemo.xcdatamodeld in Sources */,
+				8C8D29D61EC7279600666461 /* Macro.swift in Sources */,
+				8C8D29E41EC74CF800666461 /* BoolExtensions.swift in Sources */,
 				8C8D29AA1EC6F69000666461 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -410,6 +547,7 @@
 				8C8D29C81EC6F69000666461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		8C8D29C91EC6F69000666461 /* Build configuration list for PBXNativeTarget "SwiftDemoTests" */ = {
 			isa = XCConfigurationList;
@@ -418,6 +556,7 @@
 				8C8D29CB1EC6F69000666461 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 
