@@ -14,10 +14,19 @@ identifier_name:
     - id
     - pk
     - to
+    - √
+    - ±
 
 disabled_rules:
   - trailing_whitespace
   - line_length
+  - function_body_length
+  - identifier_name
+  - vertical_whitespace
+  - operator_whitespace
+  - force_cast
+  - shorthand_operator
+  - trailing_newline
 
 file_length: 1000 #文件的行数
 
