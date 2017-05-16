@@ -22,6 +22,6 @@ func printError<T>(_ message: T,
                    method: String = #function,
                    line: Int = #line) {
     #if DEBUG
-        print("‼️Error:\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
+        print("‼️ Error:\((file as NSString).lastPathComponent)[\(line)], \(method): \(message)")
     #endif
 }

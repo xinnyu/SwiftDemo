@@ -7,6 +7,7 @@ target 'SwiftDemo' do
 
   # Pods for SwiftDemo
   pod 'Alamofire', '~> 4.4'
+  pod 'ObjectMapper', '~> 2.2'
 
   target 'SwiftDemoTests' do
     inherit! :search_paths

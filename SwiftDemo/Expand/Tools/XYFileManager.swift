@@ -12,7 +12,5 @@ class XYFileManager {
     /// 单例
     static let manager = XYFileManager()
     private init() {}
-
     
-
 }
